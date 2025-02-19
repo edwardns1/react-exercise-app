@@ -33,7 +33,8 @@ function DurationExercise({ name }) {
     return (
         <div className="exercise-container">
             <h1>{name}</h1>
-            <h2>Timer: {formatTime(time)}</h2>
+            <h2>Timer:</h2>
+            <h3>{formatTime(time)}</h3>
             {!timerRunning ? (
                 <button onClick={startTimer} className="action-button">
                     Start

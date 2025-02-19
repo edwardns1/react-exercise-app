@@ -7,7 +7,8 @@ function RepetitionExercise({ name }) {
     return (
         <div className="exercise-container">
             <h1>{name}</h1>
-            <h2>Reps: {repCount}</h2>
+            <h2>REPS:</h2>
+            <h3>{repCount}</h3>
             <button onClick={() => setRepCount(repCount + 1)} className="action-button">
                 Complete Rep
             </button>

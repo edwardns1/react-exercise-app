@@ -7,11 +7,11 @@ function App() {
   const [currentExercise, setCurrentExercise] = useState(null);
 
   const exercises = [
-    { name: "Push-ups", type: "repetition" },
-    { name: "Bicycling", type: "duration" },
-    { name: "Jumping Jacks", type: "repetition" },
-    { name: "Running", type: "duration" },
-    { name: "Sit Ups", type: "repetition" },
+    { name: "PUSH UPS", type: "repetition" },
+    { name: "BICYCLING", type: "duration" },
+    { name: "JUMPING JACKS", type: "repetition" },
+    { name: "RUNNING", type: "duration" },
+    { name: "SIT UPS", type: "repetition" },
   ];
 
   let defaultReturn = (
